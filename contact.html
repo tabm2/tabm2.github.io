@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:ital,wght@1,700&display=swap');
+    </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Tabish | Contact</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-custom">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse light-bottom-border" id="navbarTogglerDemo03">
+            <a class="navbar-brand text-muted" href="index.html"
+                style="font-family: 'Playfair Display', serif; font-size: 1.4em;">tabish
+                mir</a>
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="blog.html">Blog <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active font-weight-bold">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="body-div">
+        <div class="container index-container">
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+                action="https://formspree.io/f/mzbyoapg" method="post">
+                <fieldset id="fs-frm-inputs">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                    <label for="email-address">Your Email Address</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" type="email" required>
+                    <label for="message">Message</label>
+                    <textarea rows="5" name="message" id="message"
+                        placeholder="Please write your message"
+                        required=""></textarea>
+                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" required>
+                </fieldset>
+                <input type="submit" value="Submit">
+            </form>
+            <style>
+                /* reset */
+                #fs-frm input,
+                #fs-frm select,
+                #fs-frm textarea,
+                #fs-frm fieldset,
+                #fs-frm optgroup,
+                #fs-frm label,
+                #fs-frm #card-element:disabled {
+                    font-family: inherit;
+                    font-size: 100%;
+                    color: inherit;
+                    border: none;
+                    border-radius: 0;
+                    display: block;
+                    width: 100%;
+                    padding: 0;
+                    margin: 0;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                }
+
+                #fs-frm label,
+                #fs-frm legend,
+                #fs-frm ::placeholder {
+                    font-size: .825rem;
+                    margin-bottom: .5rem;
+                    padding-top: .2rem;
+                    display: flex;
+                    align-items: baseline;
+                }
+
+                /* border, padding, margin, width */
+                #fs-frm input,
+                #fs-frm select,
+                #fs-frm textarea,
+                #fs-frm #card-element {
+                    border: 1px solid rgba(0, 0, 0, 0.2);
+                    background-color: rgba(255, 255, 255, 0.9);
+                    padding: .75em 1rem;
+                    margin-bottom: 1.5rem;
+                }
+
+                #fs-frm input:focus,
+                #fs-frm select:focus,
+                #fs-frm textarea:focus {
+                    background-color: white;
+                    outline-style: solid;
+                    outline-width: thin;
+                    outline-color: gray;
+                    outline-offset: -1px;
+                }
+
+                #fs-frm [type="text"],
+                #fs-frm [type="email"] {
+                    width: 100%;
+                }
+
+                #fs-frm [type="button"],
+                #fs-frm [type="submit"],
+                #fs-frm [type="reset"] {
+                    width: auto;
+                    cursor: pointer;
+                    -webkit-appearance: button;
+                    -moz-appearance: button;
+                    appearance: button;
+                }
+
+                #fs-frm [type="button"]:focus,
+                #fs-frm [type="submit"]:focus,
+                #fs-frm [type="reset"]:focus {
+                    outline: none;
+                }
+
+                #fs-frm [type="submit"],
+                #fs-frm [type="reset"] {
+                    margin-bottom: 0;
+                }
+
+                #fs-frm select {
+                    text-transform: none;
+                }
+
+                #fs-frm [type="checkbox"] {
+                    -webkit-appearance: checkbox;
+                    -moz-appearance: checkbox;
+                    appearance: checkbox;
+                    display: inline-block;
+                    width: auto;
+                    margin: 0 .5em 0 0 !important;
+                }
+
+                #fs-frm [type="radio"] {
+                    -webkit-appearance: radio;
+                    -moz-appearance: radio;
+                    appearance: radio;
+                }
+
+                /* address, locale */
+                #fs-frm fieldset.locale input[name="city"],
+                #fs-frm fieldset.locale select[name="state"],
+                #fs-frm fieldset.locale input[name="postal-code"] {
+                    display: inline;
+                }
+
+                #fs-frm fieldset.locale input[name="city"] {
+                    width: 52%;
+                }
+
+                #fs-frm fieldset.locale select[name="state"],
+                #fs-frm fieldset.locale input[name="postal-code"] {
+                    width: 20%;
+                }
+
+                #fs-frm fieldset.locale input[name="city"],
+                #fs-frm fieldset.locale select[name="state"] {
+                    margin-right: 3%;
+                }
+            </style>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
