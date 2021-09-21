@@ -1,5 +1,6 @@
 * {
     -webkit-font-smoothing: antialiased;
+    font-display: swap;
 }
 
 nav {
@@ -117,6 +118,7 @@ h5 {
 
 .navbar-brand:hover {
     color: black !important;
+    font-family: 'Playfair Display', serif; font-size: 1.4em;
 }
 
 .light-bottom-border {
@@ -158,6 +160,10 @@ h5 {
 .footer-row {
     margin: auto;
     width: 65%;
+}
+
+.center-element {
+    align-items: center;
 }
 
 @media only screen and (max-width: 990px) {
